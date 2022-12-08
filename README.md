@@ -1,4 +1,23 @@
 # Unidad 5 Clase 1A
+Se utiliza REST Framework para 
+
+- patch: solo algunos campos
+	{"nombre": "nuevonombrenombre"}
+
+- put: Update todos los campos
+{
+	"nombre": "nuevo"
+	"apellido":""
+	"edad":25	
+}
+
+- delete:	localhost/api/categoria/1
+
+*Posibles salidas:
+- 200:	todo ok
+- 300:	redireccion, despues aparece el 200 si se redirigio bien
+- 400:	error del cliente
+- 500:	error del servidor
 
 ### Instalamos 
 * pip install django
