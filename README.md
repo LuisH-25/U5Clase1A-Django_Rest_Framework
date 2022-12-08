@@ -1,6 +1,7 @@
 # Unidad 5 Clase 1A
-Se utiliza REST Framework para 
+Se utiliza REST Framework para GET, POST, PUT
 
+## Teoria
 - patch: solo algunos campos
 	{"nombre": "nuevonombrenombre"}
 
@@ -18,6 +19,8 @@ Se utiliza REST Framework para
 - 300:	redireccion, despues aparece el 200 si se redirigio bien
 - 400:	error del cliente
 - 500:	error del servidor
+
+## Codigo
 
 ### Instalamos 
 * pip install django
