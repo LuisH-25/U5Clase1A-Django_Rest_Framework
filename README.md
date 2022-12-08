@@ -15,4 +15,18 @@ INSTALLED_APPS = [
     'rest_framework',
 ]
 
-### en models de drf
+### archivos nuevos y editados
+drf/serializaers.py
+drf/urls.py
+drf/views.py
+
+### ingresar en REST framework
+{
+  "nombre": "Peru",
+  "moneda":"sol"
+}
+### PAra mayor informacion
+https://www.django-rest-framework.org/topics/documenting-your-api/
+
+### Link de la clase
+https://www.youtube.com/watch?v=3-mKdyApnz4
