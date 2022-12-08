@@ -1,12 +1,12 @@
 # Unidad 5 Clase 1A
 
 ### Instalamos 
-pip install django
-pip install djangorestframework
+* pip install django
+* pip install djangorestframework
 
 ### Crear proyecto y aplicacion
-django-admin startproject principal .
-django-admin startapp drf
+* django-admin startproject principal .
+* django-admin startapp drf
 
 ### Agregar en principal/setting
 INSTALLED_APPS = [
@@ -16,9 +16,9 @@ INSTALLED_APPS = [
 ]
 
 ### archivos nuevos y editados
-drf/serializaers.py
-drf/urls.py
-drf/views.py
+* drf/serializaers.py
+* drf/urls.py
+* drf/views.py
 
 ### ingresar en REST framework
 {
